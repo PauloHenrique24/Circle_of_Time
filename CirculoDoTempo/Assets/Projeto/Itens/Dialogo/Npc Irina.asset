@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be7f2acfba4bc4347b5b4933f1f9eab7, type: 3}
+  m_Name: Npc Irina
+  m_EditorClassIdentifier: 
+  nome: Irina
+  dialogos:
+  - dialogo: '"Time is a cycle, and I am its beat."'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  - dialogo: '"You seem... different. Have we met before?"'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  - dialogo: '"I rang the bell, but I swear I already did that."'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  - dialogo: '"The sound of the bell... it pains my soul."'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  - dialogo: '"I remember... you tried to stop this before."'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  - dialogo: '"Go to the temple, Elias. Break the clock."'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  save: npcirina

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be7f2acfba4bc4347b5b4933f1f9eab7, type: 3}
+  m_Name: "Npc L\xE9o"
+  m_EditorClassIdentifier: 
+  nome: "L\xE9o"
+  dialogos:
+  - dialogo: '"If I fix the clock, Mom will come back!"'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  - dialogo: '"Time isn''t moving, uncle... is it my fault?"'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  - dialogo: '"I heard the bell, but the clock is still stopped."'
+    evento:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3868475919825531654, guid: 1946fb5c92ab4d3438de8ce4903467b9, type: 3}
+          m_TargetAssemblyTypeName: NpcManager, Assembly-CSharp
+          m_MethodName: Forja
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    desbloquear: 
+  - dialogo: '"Do you want to see the clock? Careful, it bites."'
+    evento:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3868475919825531654, guid: 1946fb5c92ab4d3438de8ce4903467b9, type: 3}
+          m_TargetAssemblyTypeName: NpcManager, Assembly-CSharp
+          m_MethodName: Marek
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    desbloquear: 
+  - dialogo: '"Maybe if I give this to you..."'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  - dialogo: '"Now time can rest."'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  save: npcleo

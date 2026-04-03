@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be7f2acfba4bc4347b5b4933f1f9eab7, type: 3}
+  m_Name: Npc Marek
+  m_EditorClassIdentifier: 
+  nome: Marek
+  dialogos:
+  - dialogo: '"I never finish this job..."'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  - dialogo: '"Why does iron never cool down?"'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  - dialogo: '"Everything starts again... even the sound of the hammer."'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  - dialogo: '"If I stop knocking, will time stop with me?"'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: RelogioLeo
+  - dialogo: '"..."'
+    evento:
+      m_PersistentCalls:
+        m_Calls: []
+    desbloquear: 
+  - dialogo: '"Thank you, Elias. Now I can rest."'
+    evento:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3868475919825531654, guid: 1946fb5c92ab4d3438de8ce4903467b9, type: 3}
+          m_TargetAssemblyTypeName: NpcManager, Assembly-CSharp
+          m_MethodName: MarekDesaparece
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    desbloquear: 
+  save: npcmarek
